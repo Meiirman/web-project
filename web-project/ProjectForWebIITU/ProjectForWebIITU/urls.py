@@ -35,4 +35,5 @@ urlpatterns = [
     re_path(r"^product_edit/", views.product_edit),
 
     re_path(r"^qotaq/", views.index),
+    re_path(r"^qotaqbas/", views.index),
 ]
